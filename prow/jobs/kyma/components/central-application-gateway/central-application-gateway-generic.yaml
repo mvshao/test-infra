@@ -14,7 +14,7 @@ presubmits: # runs on PRs
         preset-docker-push-repository-kyma: "true"
         preset-kyma-kms-sign-key: "true"
         preset-sa-gcr-push: "true"
-      run_if_changed: '^components/central-application-gateway/|^common/makefiles/'
+      run_if_changed: '^components/application-connector/central-application-gateway/|^common/makefiles/'
       optional: true
       skip_report: false
       decorate: true
@@ -37,7 +37,7 @@ presubmits: # runs on PRs
             command:
               - "/home/prow/go/src/github.com/kyma-project/test-infra/prow/scripts/build-generic.sh"
             args:
-              - "/home/prow/go/src/github.com/kyma-project/kyma/components/central-application-gateway"
+              - "/home/prow/go/src/github.com/kyma-project/kyma/components/application-connector/central-application-gateway"
             resources:
               requests:
                 memory: 3Gi
@@ -60,7 +60,7 @@ presubmits: # runs on PRs
         preset-docker-push-repository-kyma: "true"
         preset-kyma-kms-sign-key: "true"
         preset-sa-gcr-push: "true"
-      run_if_changed: '^components/central-application-gateway/|^common/makefiles/'
+      run_if_changed: '^components/application-connector/central-application-gateway/|^common/makefiles/'
       optional: true
       skip_report: false
       decorate: true
@@ -82,7 +82,7 @@ presubmits: # runs on PRs
             command:
               - "/home/prow/go/src/github.com/kyma-project/test-infra/prow/scripts/build-generic.sh"
             args:
-              - "/home/prow/go/src/github.com/kyma-project/kyma/components/central-application-gateway"
+              - "/home/prow/go/src/github.com/kyma-project/kyma/components/application-connector/central-application-gateway"
             resources:
               requests:
                 memory: 3Gi
@@ -105,7 +105,7 @@ presubmits: # runs on PRs
         preset-docker-push-repository-kyma: "true"
         preset-kyma-kms-sign-key: "true"
         preset-sa-gcr-push: "true"
-      run_if_changed: '^components/central-application-gateway/|^common/makefiles/'
+      run_if_changed: '^components/application-connector/central-application-gateway/|^common/makefiles/'
       optional: true
       skip_report: false
       decorate: true
@@ -127,7 +127,7 @@ presubmits: # runs on PRs
             command:
               - "/home/prow/go/src/github.com/kyma-project/test-infra/prow/scripts/build-generic.sh"
             args:
-              - "/home/prow/go/src/github.com/kyma-project/kyma/components/central-application-gateway"
+              - "/home/prow/go/src/github.com/kyma-project/kyma/components/application-connector/central-application-gateway"
             resources:
               requests:
                 memory: 3Gi
@@ -154,7 +154,7 @@ postsubmits: # runs on main
         preset-docker-push-repository-kyma: "true"
         preset-kyma-kms-sign-key: "true"
         preset-sa-gcr-push: "true"
-      run_if_changed: '^components/central-application-gateway/|^common/makefiles/'
+      run_if_changed: '^components/application-connector/central-application-gateway/|^common/makefiles/'
       optional: true
       skip_report: false
       decorate: true
@@ -180,7 +180,7 @@ postsubmits: # runs on main
             command:
               - "/home/prow/go/src/github.com/kyma-project/test-infra/prow/scripts/build-generic.sh"
             args:
-              - "/home/prow/go/src/github.com/kyma-project/kyma/components/central-application-gateway"
+              - "/home/prow/go/src/github.com/kyma-project/kyma/components/application-connector/central-application-gateway"
             resources:
               requests:
                 memory: 3Gi
@@ -204,7 +204,7 @@ postsubmits: # runs on main
         preset-docker-push-repository-kyma: "true"
         preset-kyma-kms-sign-key: "true"
         preset-sa-gcr-push: "true"
-      run_if_changed: '^components/central-application-gateway/|^common/makefiles/'
+      run_if_changed: '^components/application-connector/central-application-gateway/|^common/makefiles/'
       optional: true
       skip_report: false
       decorate: true
@@ -229,7 +229,7 @@ postsubmits: # runs on main
             command:
               - "/home/prow/go/src/github.com/kyma-project/test-infra/prow/scripts/build-generic.sh"
             args:
-              - "/home/prow/go/src/github.com/kyma-project/kyma/components/central-application-gateway"
+              - "/home/prow/go/src/github.com/kyma-project/kyma/components/application-connector/central-application-gateway"
             resources:
               requests:
                 memory: 3Gi
@@ -253,7 +253,7 @@ postsubmits: # runs on main
         preset-docker-push-repository-kyma: "true"
         preset-kyma-kms-sign-key: "true"
         preset-sa-gcr-push: "true"
-      run_if_changed: '^components/central-application-gateway/|^common/makefiles/'
+      run_if_changed: '^components/application-connector/central-application-gateway/|^common/makefiles/'
       optional: true
       skip_report: false
       decorate: true
@@ -278,7 +278,7 @@ postsubmits: # runs on main
             command:
               - "/home/prow/go/src/github.com/kyma-project/test-infra/prow/scripts/build-generic.sh"
             args:
-              - "/home/prow/go/src/github.com/kyma-project/kyma/components/central-application-gateway"
+              - "/home/prow/go/src/github.com/kyma-project/kyma/components/application-connector/central-application-gateway"
             resources:
               requests:
                 memory: 3Gi
